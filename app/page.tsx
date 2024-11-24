@@ -55,7 +55,7 @@ const HomePage = () => {
       <div style={{ textAlign: "center", padding: "20px" }}>
         <h1 style={{ color: "white" }}>{selectedCharacter.name}</h1>
 
-        {/* Character Details Section */}
+        {/* Detail of Characters section */}
         <div style={styles.characterDetails}>
           <img
             src={selectedCharacter.image}
@@ -82,7 +82,7 @@ const HomePage = () => {
     );
   }
 
-  // Render the character list
+  // Render the characters
   return (
     <div>
       <div
